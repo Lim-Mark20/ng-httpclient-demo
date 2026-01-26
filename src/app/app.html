@@ -15,7 +15,7 @@
             </tr>
           </thead>
           <tbody>
-            @for (user of httpusers; track user.id) {
+            @for (user of httpusers.slice(0, 5); track user.id) {
               <tr>
                 <td>{{ user.id }}</td>
                 <td>{{ user.name }}</td>
@@ -42,7 +42,7 @@
             </tr>
           </thead>
           <tbody>
-            @for (product of httpproducts; track product.id) {
+            @for (product of httpproducts.slice(0, 5); track product.id) {
               <tr>
                 <td>{{ product.id }}</td>
                 <td>{{ product.title }}</td>
