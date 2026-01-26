@@ -1,0 +1,46 @@
+.user-table-section {
+  margin-top: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.08);
+  padding: 1.5rem 1rem;
+  max-width: 100%;
+  overflow-x: auto;
+}
+.user-table-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--gray-900);
+  font-weight: 600;
+  letter-spacing: -0.03rem;
+}
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  background: #fff;
+  border: 2px solid #bdbdbd;
+}
+.user-table th, .user-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 2px solid var(--gray-400);
+  border: 2px solid #bdbdbd;
+}
+.user-table th {
+  background: #000000;
+  color: #fff;
+  font-weight: 600;
+  border-top: 2px solid #bdbdbd;
+  border-bottom: 2px solid #bdbdbd;
+  border-radius: 0.5rem 0.5rem 0 0;
+  vertical-align: middle;
+  letter-spacing: 0.03em;
+}
+.user-table tr:last-child td {
+  border-bottom: 2px solid var(--gray-400);
+}
+.user-table tbody tr:hover {
+  background: color-mix(in srgb, var(--bright-blue) 8%, transparent);
+  transition: background 0.2s;
+}
